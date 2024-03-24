@@ -18,13 +18,15 @@ namespace MyApp
             //Console.WriteLine(i);
 
             bool? AreYouMajor = null;
-            if(AreYouMajor == true)
+            if (AreYouMajor == true)
             {
                 Console.WriteLine("User is Major");
-            } else if(AreYouMajor == false)
+            }
+            else if (AreYouMajor == false)
             {
                 Console.WriteLine("User is Not Major");
-            } else
+            }
+            else
             {
                 Console.WriteLine("User have not Answered!");
             }
@@ -89,7 +91,7 @@ namespace MyApp
             int FN = 5;
             int SN = 5;
             OutHelperFunctionCalculate(FN, SN, out int Sum, out int Product);
-            Console.WriteLine("Sum is {0} and Product is {1}",Sum, Product);
+            Console.WriteLine("Sum is {0} and Product is {1}", Sum, Product);
         }
 
         /// <summary>
@@ -103,7 +105,8 @@ namespace MyApp
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Console.WriteLine("Hello World!");
+
             //NullableAreYouMajorExample();
 
             //NullableTicketsExampleTwo();
@@ -121,8 +124,90 @@ namespace MyApp
             //ParamsExample(1, 2, 3, 4, 5, 6, 7, 8);
 
 
-            PATA.ClassA.Print();
-            PATB.ClassA.Print();
+            //PATA.ClassA.Print();
+            //PATB.ClassA.Print();
+
+
+            //Customer C1 = new Customer("Harshil", "Panchal");
+            //C1.PrintFullName();
+            //Customer C2 = new Customer();
+            //C2.PrintFullName();
+
+
+            //Circle C1 = new Circle(5);
+            //float Area1 = C1.CalculateArea(); // it is based on instance/object, so invoked by objects
+            //Console.WriteLine("Area of a Circle is {0}", Area1);
+            //Circle.Print(); // we need to invoke "static" members using ClassName
+            //Circle C2 = new Circle(6);
+            //float Area2 = C2.CalculateArea(); // it is based on instance/object, so invoked by objects
+            //Console.WriteLine("Area of a Circle is {0}", Area2);
+
+
+
+
         }
+    }
+
+    /// <summary>
+    /// This Class is used as an Example for:
+    ///     "Classes + Constructor + Destructor"
+    /// </summary>
+    class Customer
+    {
+        string _firstName;
+        string _lastName;
+
+        public Customer() : this("No First Name", "No Last Name")
+        {
+        }
+        public Customer(string FirstName, string LastName)
+        {
+            this._firstName = FirstName;
+            this._lastName = LastName;
+        }
+
+        public void PrintFullName()
+        {
+            Console.WriteLine("Full Name is {0} {1}", this._firstName, this._lastName);
+        }
+        ~Customer()
+        {
+            Console.WriteLine("Cleaning up....");
+        }
+    }
+
+    /// <summary>
+    /// This class is used for explanation of:
+    ///     "Static" members
+    ///     we should only define members as static when they are not changing.
+    ///     so by defining static, it won't be created for each instances
+    /// </summary>
+    class Circle
+    {
+        static float _PI;
+        int _Radius;
+
+        static Circle()
+        {
+            Circle._PI = 3.141F;
+            Console.WriteLine("Static Constructor Called");
+        }
+
+        public Circle(int Radius)
+        {
+            this._Radius = Radius;
+            Console.WriteLine("Instance Constructor Called");
+
+        }
+
+        public static void Print()
+        {
+            // printing
+        }
+        public float CalculateArea()
+        {
+            return Circle._PI* (this._Radius * this._Radius);
+        }
+
     }
 }

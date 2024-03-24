@@ -22,8 +22,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -58,7 +62,7 @@
               "RelativeDocumentMoniker": "CSharpPractice\\Program.cs",
               "ToolTip": "D:\\RBC_CNB_Practice\\Github\\CSharpPractice\\CSharpPractice\\Program.cs",
               "RelativeToolTip": "CSharpPractice\\Program.cs",
-              "ViewState": "AQIAAHgAAAAAAAAAAAAIwIAAAAAAAAAA",
+              "ViewState": "AQIAAHwAAAAAAAAAAAAhwI0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-24T02:43:18.801Z",
               "EditorCaption": ""
