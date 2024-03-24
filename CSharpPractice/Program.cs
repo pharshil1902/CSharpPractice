@@ -1,4 +1,6 @@
-﻿
+﻿using PATA = ProjectA.TeamA;
+using PATB = ProjectA.TeamB;
+
 namespace MyApp
 {
     internal class Program
@@ -113,10 +115,14 @@ namespace MyApp
 
             //OutKeywordExample();
 
-            int[] Numbers = { 1, 2, 3, };
-            ParamsExample();
-            ParamsExample(Numbers);
+            //int[] Numbers = { 1, 2, 3, };
+            //ParamsExample();
+            //ParamsExample(Numbers);
+            //ParamsExample(1, 2, 3, 4, 5, 6, 7, 8);
 
+
+            PATA.ClassA.Print();
+            PATB.ClassA.Print();
         }
     }
 }

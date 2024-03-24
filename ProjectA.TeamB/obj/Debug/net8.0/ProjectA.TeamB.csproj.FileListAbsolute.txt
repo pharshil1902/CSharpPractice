@@ -1,0 +1,12 @@
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\bin\Debug\net8.0\ProjectA.TeamB.deps.json
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\bin\Debug\net8.0\ProjectA.TeamB.dll
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\bin\Debug\net8.0\ProjectA.TeamB.pdb
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ProjectA.TeamB.GeneratedMSBuildEditorConfig.editorconfig
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ProjectA.TeamB.AssemblyInfoInputs.cache
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ProjectA.TeamB.AssemblyInfo.cs
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ProjectA.TeamB.csproj.CoreCompileInputs.cache
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ProjectA.TeamB.sourcelink.json
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ProjectA.TeamB.dll
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\refint\ProjectA.TeamB.dll
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ProjectA.TeamB.pdb
+D:\RBC_CNB_Practice\Github\CSharpPractice\ProjectA.TeamB\obj\Debug\net8.0\ref\ProjectA.TeamB.dll
