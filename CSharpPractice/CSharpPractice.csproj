@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\InheritancePractice\InheritancePractice.csproj" />
     <ProjectReference Include="..\ProjectA.TeamA\ProjectA.TeamA.csproj" />
     <ProjectReference Include="..\ProjectA.TeamB\ProjectA.TeamB.csproj" />
   </ItemGroup>

@@ -1,0 +1,12 @@
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\bin\Debug\net8.0\InheritancePractice.deps.json
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\bin\Debug\net8.0\InheritancePractice.dll
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\bin\Debug\net8.0\InheritancePractice.pdb
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\InheritancePractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\InheritancePractice.AssemblyInfoInputs.cache
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\InheritancePractice.AssemblyInfo.cs
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\InheritancePractice.csproj.CoreCompileInputs.cache
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\InheritancePractice.sourcelink.json
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\InheritancePractice.dll
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\refint\InheritancePractice.dll
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\InheritancePractice.pdb
+D:\RBC_CNB_Practice\Github\CSharpPractice\InheritancePractice\obj\Debug\net8.0\ref\InheritancePractice.dll

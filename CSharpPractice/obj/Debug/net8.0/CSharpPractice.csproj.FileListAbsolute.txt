@@ -33,3 +33,5 @@ D:\RBC_CNB_Practice\Github\CSharpPractice\CSharpPractice\bin\Debug\net8.0\Projec
 D:\RBC_CNB_Practice\Github\CSharpPractice\CSharpPractice\bin\Debug\net8.0\ProjectA.TeamB.pdb
 D:\RBC_CNB_Practice\Github\CSharpPractice\CSharpPractice\obj\Debug\net8.0\CSharpPractice.csproj.AssemblyReference.cache
 D:\RBC_CNB_Practice\Github\CSharpPractice\CSharpPractice\obj\Debug\net8.0\CSharpPr.ADD6C8EA.Up2Date
+D:\RBC_CNB_Practice\Github\CSharpPractice\CSharpPractice\bin\Debug\net8.0\InheritancePractice.dll
+D:\RBC_CNB_Practice\Github\CSharpPractice\CSharpPractice\bin\Debug\net8.0\InheritancePractice.pdb

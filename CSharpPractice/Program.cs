@@ -1,5 +1,6 @@
 ﻿using PATA = ProjectA.TeamA;
 using PATB = ProjectA.TeamB;
+using InheritancePractice;
 
 namespace MyApp
 {
@@ -144,6 +145,19 @@ namespace MyApp
 
 
 
+            //FullTimeEmployee FTE = new FullTimeEmployee();
+            //FTE.FirstName = "Harshil";
+            //FTE.LastName = "Panchal";
+            //FTE.YearlySalary = 90000;
+            //FTE.PrintFullName();
+            //Console.WriteLine(FTE.YearlySalary);
+
+            //PartTimeEmployee PTE = new PartTimeEmployee();
+            //PTE.FirstName = "Harshil";
+            //PTE.LastName = "Panchal";
+            //PTE.HourlyRate = 29; 
+            //PTE.PrintFullName();
+            //Console.WriteLine(PTE.HourlyRate);
 
         }
     }

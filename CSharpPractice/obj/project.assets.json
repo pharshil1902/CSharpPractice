@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "InheritancePractice/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/InheritancePractice.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InheritancePractice.dll": {}
+        }
+      },
       "ProjectA.TeamA/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -25,6 +35,11 @@
     }
   },
   "libraries": {
+    "InheritancePractice/1.0.0": {
+      "type": "project",
+      "path": "../InheritancePractice/InheritancePractice.csproj",
+      "msbuildProject": "../InheritancePractice/InheritancePractice.csproj"
+    },
     "ProjectA.TeamA/1.0.0": {
       "type": "project",
       "path": "../ProjectA.TeamA/ProjectA.TeamA.csproj",
@@ -38,6 +53,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "InheritancePractice >= 1.0.0",
       "ProjectA.TeamA >= 1.0.0",
       "ProjectA.TeamB >= 1.0.0"
     ]
@@ -69,6 +85,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\RBC_CNB_Practice\\Github\\CSharpPractice\\InheritancePractice\\InheritancePractice.csproj": {
+              "projectPath": "D:\\RBC_CNB_Practice\\Github\\CSharpPractice\\InheritancePractice\\InheritancePractice.csproj"
+            },
             "D:\\RBC_CNB_Practice\\Github\\CSharpPractice\\ProjectA.TeamA\\ProjectA.TeamA.csproj": {
               "projectPath": "D:\\RBC_CNB_Practice\\Github\\CSharpPractice\\ProjectA.TeamA\\ProjectA.TeamA.csproj"
             },
